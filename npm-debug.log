@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\shiguoqing\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'develop' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose run-script [ 'predevelop', 'develop', 'postdevelop' ]
+5 info lifecycle webpack_example@1.0.0~predevelop: webpack_example@1.0.0
+6 silly lifecycle webpack_example@1.0.0~predevelop: no script for predevelop, continuing
+7 info lifecycle webpack_example@1.0.0~develop: webpack_example@1.0.0
+8 verbose lifecycle webpack_example@1.0.0~develop: unsafe-perm in lifecycle true
+9 verbose lifecycle webpack_example@1.0.0~develop: PATH: C:\Users\shiguoqing\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Code\h3\14期react_example\react_example\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Java\jdk1.8.0_91\bin;C:\Program Files (x86)\Java\jdk1.8.0_91\jre\bin;C:\Program Files\android\tools;C:\Program Files\android\platform-tools;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Python27;C:\Program Files\curl;C:\Ruby22-x64\bin;C:\Users\shiguoqing\AppData\Local\Programs\Git\cmd;C:\Users\shiguoqing\AppData\Roaming\npm
+10 verbose lifecycle webpack_example@1.0.0~develop: CWD: C:\Code\h3\14期react_example\react_example
+11 silly lifecycle webpack_example@1.0.0~develop: Args: [ '/d /s /c',
+11 silly lifecycle   'webpack-dev-server  --config webpack.develop.config.js --devtool eval --progress --colors --hot --content-base src' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1026:11)
+12 verbose stack     at process.kill (internal/process.js:172:13)
+12 verbose stack     at process.listener (C:\Users\shiguoqing\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (C:\Users\shiguoqing\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Users\shiguoqing\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:199:44)
+13 verbose cwd C:\Code\h3\14期react_example\react_example
+14 error Windows_NT 10.0.10586
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\shiguoqing\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "develop"
+16 error node v6.9.1
+17 error npm  v3.10.8
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
